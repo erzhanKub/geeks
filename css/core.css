@@ -11,7 +11,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 ul,
@@ -21,21 +21,46 @@ li {
 
 .wrapper {
   min-height: 100%;
-  min-width: 100%;
   overflow: hidden;
 }
 
 .container {
-  min-width: 1550px;
-  padding: 0 15px;
+  max-width: 100%;
+  padding: 0 2.5rem;
   margin: 0 auto;
+  border-bottom: 1px solid black;
 }
 
+@media screen and (min-width: 760px) {
+  .container {
+    padding: 0 3.75rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container {
+    padding: 0 12.5rem;
+  }
+}
 button {
   cursor: pointer;
   border-radius: 6px;
-  border: 1px solid #DDE2E4;
-  background-color: #FFFFFF;
+  border: 1px solid #dde2e4;
+  background-color: #ffffff;
   padding: 4px 12px;
   -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);

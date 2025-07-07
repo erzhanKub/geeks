@@ -39,6 +39,11 @@
 .header__inner .header__left .header__nav-list .header__nav-item:last-child {
   gap: 0;
 }
+@media screen and (max-width: 960px) {
+  .header__inner .header__left {
+    display: none;
+  }
+}
 .header__inner .header__right .header__nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
