@@ -1,0 +1,56 @@
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__inner .header__logo {
+  margin-right: 32px;
+  width: 142px;
+  height: 32px;
+}
+.header__inner .header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: auto;
+  color: #252c32;
+}
+.header__inner .header__left .header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__inner .header__left .header__nav-list .header__nav-item:last-child {
+  gap: 0;
+}
+.header__inner .header__right .header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__inner .header__right .header__nav-list .header__nav-icon {
+  height: 32px;
+  width: 32px;
+  padding: 8px;
+}
+.header__inner .header__right .header__nav-list .header__nav-icon:last-child {
+  padding: 0;
+  width: 24px;
+  margin-left: 8px;
+}
